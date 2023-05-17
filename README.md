@@ -5,22 +5,4 @@
 ██████╔╝░░░██║░░░╚█████╔╝╚█████╔╝██║░╚██╗██║░░██║╚█████╔╝███████╗██║░╚═╝░██║
 ╚═════╝░░░░╚═╝░░░░╚════╝░░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚══════╝╚═╝░░░░░╚═╝
 
-Welcome to Stockholm!
-​
-Stockholm is a ransomware used to encrypt every file that has a "wannacry" extension, and generates a key.key to decrypt with reversing algorithm
-This program is written in python language, here are the instructions to use it:
-​
--   Usage: stockholm.py [ -r <key> ] [ -s ] [ -v ] [ -h | --help ]
-​
--   stockholm.py            Encrypts files in $HOME/infection path, and generates key.key in the execution directory
-​
--   stockholm.py -r <key>   Decrypts files affected by infection in $HOME/infection path, using the key given as argument to decrypt them
-​
--   stockholm.py -v         Shows the version of the program
-​
--   stockholm.py -s         Launch with silent mode (no console outputs)
-​
-The program uses the Fernet algorithm (included in cryptography library), to encrypt the files and generate the .key file.
-Stockholm only affects to the files that have one of the extensions that was affected by wannacry attack.
-​
-ADVERTISEMENT: WITHOUT THE .KEY IS IMPOSSIBLE TO DECRYPT FILES, SO DON'T REMOVE IT
+<h2>Welcome to Stockholm!</h2>  <p>Stockholm is a ransomware used to encrypt every file that has a "wannacry" extension, and generates a key.key to decrypt with reversing algorithm. This program is written in [python language] here are the instructions to use it:</p>  <ul> <li><strong>Usage:</strong> stockholm.py [ -r &lt;key&gt; ] [ -s ] [ -v ] [ -h | --help ]</li> <li><code>stockholm.py</code> - Encrypts files in $HOME/infection path, and generates key.key in the execution directory</li> <li><code>stockholm.py -r &lt;key&gt;</code> - Decrypts files affected by infection in $HOME/infection path, using the key given as argument to decrypt them</li> <li><code>stockholm.py -v</code> - Shows the version of the program</li> <li><code>stockholm.py -s</code> - Launch with silent mode (no console outputs)</li> </ul>  <p>The program uses the [Fernet algorithm] (included in [cryptography library]), to encrypt the files and generate the .key file. Stockholm only affects to the files that have one of the extensions that was affected by wannacry attack.</p>  <p><strong>ADVERTISEMENT:</strong> WITHOUT THE .KEY IS IMPOSSIBLE TO DECRYPT FILES, SO DON'T REMOVE IT</p>
